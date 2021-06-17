@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Poppins&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #BDD6EC;
+}
+
+main {
+	height: 750px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fondo1 {
+	background-image: url(./fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: #373784;
+}
+.logo {
+	max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    padding-left: 43%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: #181844;
+}
+
+#menu ul {
+	padding-top: 5px;
+	padding-left: 420px;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	font-size: 25px;
+	text-decoration: none;
+	padding: 40px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: #8986EE;
+	text-align: center;
+	font-family: 'Adamina', serif;
+}
+section {
+	width: 100%;
+	height: 600px;
+}
+
+#Video {
+	padding-left:30%;
+	margin-top: 3%;
+	max-width: 100%;
+    max-height: 100%;
+
+}
+
+#Info {
+	width: 42%;
+	height: 220px;
+	background-color: #181844;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+#Info h3 {
+	font-size: 25px;
+	padding-top: 20px;
+	color: #515ACA;
+	text-align: center;
+	font-family: 'Adamina', serif;
+}
+
+#Info p {
+	font-size: 20px;
+	margin-right: 70px;
+	margin-left: 70px;
+	margin-top: 5px;
+	color: #8986EE;
+	text-align: center;
+	font-family: 'Adamina', serif;
+	text-align: justify;
+}
+
+footer {
+	padding-top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #4253B6;
+	font-family: 'Adamina', serif;
+	display: block;
+	text-decoration: none;
+}
+
+footer {
+	padding-top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #4253B6;
+	font-family: 'Adamina', serif;
+}
+
+.black {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 3px;
+}
+
+#nombre{
+	font-size: 17px;
+	font-family: 'Adamina', serif;
+	margin-left: 47%;
+	padding-top: 20px;
+}
+
+#nombre a {
+	text-decoration: none;
+	color: #0D1467;
+}
+
+#logos li {
+	display: inline;
+}
+
+#logos li a {
+	text-decoration: none;
+	float: right;
+	margin-top: -30px;
+	margin-right: 27px;
+}
+
+section {
+	width: 100%;
+	height: 600px;
+}
+
+#Img {
+	float: right;
+	padding-top: 50px;
+	margin-right: 150px;
+}
+
+#Volver {
+	background-color: #AFBDF7;
+	float: left;
+	width: 40%;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+
+#Volver a {
+	text-decoration: none;
+}
+
+#Volver p {
+	text-decoration: none;
+	color: #200768;
+	font-family:  'Adamina', serif;
+	font-size: 40px;
+	padding-top: 18px;
+}
+
+#Datos {
+	background-color: #AFBDF7;
+	float: left;
+	margin-top: 40px;
+	margin-left: 80px;
+	height: 300px;
+	width: 50%;
+}
+
+#Datos ul {
+	padding-top: 20px;
+	padding-left: 60px;
+
+}
+
+#Datos li {
+	font-size: 25px;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: #2B1794;
+	text-align: center;
+	font-family: 'Adamina', serif;
+}
+
+#Datos p {
+	font-family: 'Adamina', serif;
+}
+
+section {
+	width: 100%;
+	height: 600px;
+
+}
+#Mapa {
+	float: left;
+	padding-left: 300px;
+		padding-bottom: 70px;
+	padding-top: 70px;
+	overflow: auto;
+	width: 100%;
+	height: 600px;
+}
+
+#Paleta {
+	float: left;
+	background-color: #ACCBFB;
+	margin-left: 300px;
+	margin-top: 90px;
+	height: 400px;
+	width: 20%;
+	font-family: 'Adamina', serif;
+	
+}
+
+#Paleta h2 {
+	padding-left: 40px;
+	padding-top: 80px;
+}
+
+.MiniPaleta {
+	float: left;
+	padding-top: 20px;
+	padding-left: 65px;
+}
+
+#Tipografia {
+	float: right;
+	height: 400px;
+	width: 30%;
+	background-color: #ACCBFB;
+	margin-right: 300px;
+	margin-top: 90px;
+	font-family: 'Adamina', serif;
+	padding-top: 80px;
+	padding-left: 40px;
+}
+
+#Tipografia h2 {
+	text-align: center;
+	padding-right: 30px;
+}
+
+
+#Tipografia p {
+	color: #391694;
+	padding-top: 4px;
+	font-size: 30px;
+	text-align: center;
+	padding-right: 30px;
+}
+
+iframe {
+	padding-top: 50px;
+	padding-left: 150px;
+	width: 90%;
+	height: 550px;
+}
